@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/button_ok"
+        android:layout_width="372dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="9dp"
+        android:text="Ok"
+        android:textColor="#D7CCC8" />
+
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="612dp"
+        android:hint=" Enter Your location"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edit_text_1"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="534dp"
+        android:hint=" Enter Your Destination"
+        android:minHeight="48dp" />
+
+
+</RelativeLayout>
